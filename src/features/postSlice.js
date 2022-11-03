@@ -4,7 +4,7 @@ const initialState = [
   {
     id: 1,
     postUrl:
-      "https://i.pinimg.com/736x/80/0e/9a/800e9a0d7eb0336ca302b3e4c78ad6e9.jpg",
+      "https://expertphotography.b-cdn.net/wp-content/uploads/2020/06/find-models-12.jpg",
   },
 ];
 
