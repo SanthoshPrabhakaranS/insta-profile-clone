@@ -7,7 +7,7 @@ export const Container = styled(Box)(({ theme }) => ({
   flexDirection: "column",
   alignItems: "center",
   padding: "1rem",
-  overflowY: "auto"
+  overflowY: "auto",
 }));
 
 export const MainWrapper = styled(Box)(({ theme }) => ({
@@ -16,7 +16,7 @@ export const MainWrapper = styled(Box)(({ theme }) => ({
   display: "flex",
   flexDirection: "column",
   gap: "1.5rem",
-  [theme.breakpoints.down("sm")]: {
-    width: "100%"
+  [theme.breakpoints.down("md")]: {
+    minWidth: "100%"
   }
 }));

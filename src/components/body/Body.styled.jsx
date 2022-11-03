@@ -16,7 +16,6 @@ export const Posts = styled(Box)(({ theme }) => ({
   gap: "1rem",
   justifyContent: "center",
   [theme.breakpoints.down("md")]: {
-    gridTemplateColumns: "1fr 1fr",
     placeItems: "Center",
     padding: "1rem"
   },

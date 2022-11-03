@@ -14,7 +14,8 @@ export const Container = styled(Box)(({ theme }) => ({
   },
   [theme.breakpoints.down("sm")]: {
     flexDirection: "row",
-    height: "7vh"
+    height: "7vh",
+    borderRight: "none"
   },
 }));
 
